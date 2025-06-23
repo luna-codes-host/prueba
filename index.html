@@ -8,16 +8,19 @@
 </head>
 <body>
   <h1>Mi Lista de Tareas</h1>
-  <p>Nombre del estudiante: __________________________</p>
+  <p>Nombre del estudiante: Alejandra Luna</p>
 
   <!-- Aquí irá el formulario y la lista generada con JavaScript -->
   <form id="form-tarea">
     <label for="nombre">Nombre de la tarea</label>
    <input type="text" id="nombre" required>
+   <br>
    <label for="fecha">Fecha de entrega </label>
    <input type="date" id="fecha" required>
+   <br>
    <label for="descripcion">Descripción:</label>
-   <input type="text" id="descripcion" required>
+   <br>
+   <texttarea id="descripcion" required></textarea>
 
    <br>
    <label>Tipo:</label>
@@ -31,6 +34,7 @@
   
    <br>
    <label>Prioridad</label>
+   <br>
    <div>
     <input type="radio" name="prioridad" value="Urgente" required>
     <label for="urgente">Urgente</label>
@@ -42,7 +46,7 @@
     <label for="normal">Baja</label>
    </div>
 
-   <button type="submit"> Agregar tarea</button>
+   <button class="btn-agregar"> Agregar tarea</button>
   </form>
   <hr>
   <div id="lista-tareas"></div>

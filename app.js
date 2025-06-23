@@ -25,5 +25,4 @@ document.getElementById('from-tarea'). addEventListener('submit',function (e){
     document.getElementById('lista-tareas').appendChild(tareaDiv);
 
     document.getElementById('form-tarea').requestFullscreen();
-
 });
